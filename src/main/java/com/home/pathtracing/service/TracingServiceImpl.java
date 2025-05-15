@@ -8,13 +8,13 @@ import org.springframework.stereotype.Service;
 
 import com.home.pathtracing.dto.NavigationPointDto;
 import com.home.pathtracing.entity.NavigationPoint;
-import com.home.pathtracing.repository.StartPointRepository;
+import com.home.pathtracing.repository.TracePointRepository;
 
 @Service
 public class TracingServiceImpl implements TracingService {
 	
 	@Autowired
-	private StartPointRepository startPointRepository;
+	private TracePointRepository startPointRepository;
 	
 
 	
