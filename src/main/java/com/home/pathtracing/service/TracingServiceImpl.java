@@ -25,7 +25,7 @@ public class TracingServiceImpl implements TracingService {
 	}
 
 	
-    //Move right from last travesed coordinate	
+    //Move right from last traversed coordinate	
 	@Override
 	public NavigationPoint moveRight(int step) {
 
